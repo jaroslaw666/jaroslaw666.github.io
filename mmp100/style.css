@@ -1,0 +1,43 @@
+#shark{
+    width:25%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  body {
+    /* background-color: red; */
+    padding:0;
+    margin:0;
+  }
+
+#left{
+  width:33%;
+  background-color: red;
+  height:200vh;
+  position:absolute;
+  top:0;
+  z-index:-1;
+}
+
+#right{
+  width:33%;
+  top:0;
+  background-color: blue;
+  height:200vh;
+  position:absolute;
+  right:0;
+  z-index:-1;
+}
+
